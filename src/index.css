@@ -1,0 +1,76 @@
+.topBar{
+  background-color:hsl(104, 63%, 83%);
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-style: dotted;
+
+}
+
+.topTitle{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.bottomTitle{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.stockName{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  align-items: center;
+  border: none;
+  margin: 20px;
+}
+
+.stockName label{
+  margin-right: 15px;
+}
+
+.stockName input{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2rem;
+  max-width: 250px;
+  text-indent: 15px;
+}
+
+.findBtn{
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 10px;
+  background-color:hsl(104, 63%, 83%);
+  font-size: 1.5rem;
+  font-style: bold;
+  border-style: dotted;
+  justify-content: center;
+  height: 70px;
+  width: 120px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.dataDisplay {
+  background-color: #f4f4f4; 
+  color: #333;                
+  padding: 20px;             
+  margin-top: 20px;           
+  border-radius: 8px; 
+  width: 50%;
+  max-width: 700px;           
+  max-height: 300px;          
+  word-wrap: break-word;      
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);  
+
+}
+
+.note{
+  font-size: 1.3rem;
+  font-style: italic;
+}
